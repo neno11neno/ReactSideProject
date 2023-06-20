@@ -2,6 +2,7 @@ import './App.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
+import PostDetail from './pages/PostDetail';
 
 const router = createBrowserRouter([
   {
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About />,
+  },
+  {
+    path: "/post/:id", //參數名稱可隨意取
+    element: <PostDetail />,
   }
 ]);
 
