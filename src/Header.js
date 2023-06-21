@@ -1,8 +1,8 @@
-import React from'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function Header(){
-    return(
+export default function Header() {
+    return (
         <header className='w-screen bg-yellow-800/5 text-yello-900'>
             <div className='sticky z-50 h-50 text-xl flex flex-row item-center'>
                 <Link to={"/"} className='mr-auto ml-5 mt-2'>
