@@ -8,7 +8,7 @@ export default function Header(){
                 <Link to={"/"} className='mr-auto ml-5 mt-2'>
                     <img alt="logo" src={"/image/logo.svg"}></img>
                 </Link>
-                <Link to={"/"} className='mx-5 hover:text-yellow-700'>文章列表</Link>
+                <Link to={"/AddPost"} className='mx-5 hover:text-yellow-700'>文章列表</Link>
                 <Link to={"/about"} className='mx-5 hover:text-yellow-700'>關於我</Link>
                 <Link to={"/post/:id"} className='mx-5 text-white font-medium px-5 py-2 bg-yellow-700'>文章列表</Link>
             </div>
